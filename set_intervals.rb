@@ -1,5 +1,5 @@
 module SetIntervals
   def self.intervals(list)
-    true
+    return false if list.empty?
   end
 end
