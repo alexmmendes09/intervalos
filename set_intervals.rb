@@ -30,7 +30,7 @@ module SetIntervals
         new_item = true
       end
     end
-    result
+    result.each_slice(2).to_a
   end
 
 end
