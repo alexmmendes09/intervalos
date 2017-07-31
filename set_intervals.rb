@@ -8,6 +8,6 @@ module SetIntervals
   end
 
   def self.only_integer?(list)
-    false
+    !list.all? {|i| i.is_a?(Integer) }
   end
 end
